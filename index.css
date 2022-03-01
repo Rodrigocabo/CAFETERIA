@@ -20,5 +20,27 @@ body{
     justify-content: space-between;
     padding: 1.5rem 7%;
     border-bottom: #e72525;
+    position: fixed;
+    margin-top: 0;
+    left: 0;
+    right: 0;
 
+
+}
+
+.header .logo img{
+    height: 6rem;
+
+}
+
+.header .navbar{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover{
+    color:#e72525;
+    border-bottom: 1rem solid ;
+    padding-bottom: .5rem;
 }
