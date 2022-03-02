@@ -1,71 +1,97 @@
-/* google fontes */
-@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@300 & family= Roboto+Mono:ital,wght@0,100;1,100 & display=swap');
 *{
-    font-family:  'poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding-top: 4rem;
-    list-style: none;
-    text-decoration: none;
+
 }
+
 /* variaveis */
 :root{
     color: #bc9667;
     color: #edeae3;
     color: #1b1b1b;
 }
- img{
-     width: 100%;
- }
- body{
-     color: dimgray;
- }
- header{
-     position:fixed;
-     width: 100%;
-     top: 0;
-     right: 0;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding: 18px 100px;
-     transition: 0.5s linear;
-    background: #00008B;
- }
- .logo img{
-     width: 60px;
 
- }
+header{
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1C161E;   
+}
 
- .navbar{
-     display: flex;
- }
+.logo img{
+    font-size: 1.5rem;
+    font-weight: bold;
 
- .navbar a{
-     padding: 8px 17px;
-     color: aliceblue;
-     font-size: 1rem;
-     text-transform: uppercase;
-     font-weight: 500;
- }
- .navbar a:hover{
-     background:#1b1b1b;
-     border-radius: 0.2rem;
-     transition: 0.2s all linear;
+}
 
- }
+.navbar{
+    display: flex;
+}
 
- .header-icon{
-     font-size: 22px;
-     cursor: pointer;
-     z-index: 1000;
-     display: flex;
-     column-gap: 0.8rem; 
- }
- .header-icon .bx{
-     color: #101011;
- }
- .header-icon .bx:hover{
-     color: #bc9667;
- }
+.navbar a{
+    text-decoration: none;
+    padding: 8px 17px;
+    color: aliceblue;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar a:hover{
+    background:#bc9667;
+    border-radius: 0.2rem;
+    transition: 0.2s all linear;
+
+}
+
+.header-icon{
+    font-size: 22px;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    column-gap: 0.8rem; 
+}
+.header-icon .bx{
+    color:#ffff;
+}
+.header-icon .bx:hover{
+    color: #bc9667;
+}
+#menu-icon{
+    color:#ffff;
+    font-size: 24px;
+    z-index: 100001;
+    cursor: pointer;
+    display: none;
+}
+
+.search box{
+    position: absolute;
+    top: 100%;
+    left: 58%;
+    transform: translate(-50%);
+    background-color: aqua;
+    width: 100%;
+
+}
+.search-box input{
+    padding: 20px;
+    border: none;
+    outline: none;
+    width:100%;
+    font-size: 1rem;
+    color: #1C161E;
+
+
+}
+
+.search-box input::placeholder{
+    font-size: 1rem;
+    font-weight:500;
+}
+
+
