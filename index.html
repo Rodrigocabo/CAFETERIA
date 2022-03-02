@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE</title>
+    <!--Link CSS-->
     <link rel="stylesheet" href="index.css">
-    <title>COFFE</title>
+    <!--caixa de icones-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--link JS-->
+    <script src="index.js"></script>
+
 </head>
 <body>
-    <!--Inicio do cabeçalho-->
-    <header class="header">
+    <!--Barra de navegação-->
+    <header>
         <a href="#" class="logo">
             <img src="scr/logo.png" alt="">
-        </a>
-        <nav class="navbar">
-            <a href="#inicio">inicio</a>
-            <a href="#sobre">sobre</a>
-            <a href="#menu">menu</a>
-            <a href="#cardapio">cardapio</a>
-            <a href="#blog">blog</a>
-         </nav>
-         
-         <!--inicio do icones-->
-         <div class="icons">
-             <div class="fas fa-search" id="search-btn"></div>
-             <div class="fas fa-shopping-cart" id="cart-btn"></div>
-             <div class="fas fa-bars" id="menu-btn"></div>
+            </a>
+            <!--icones-menu-->
+            <i class="bx bx-menu" id="menu-icon"></i> 
+            <!--links-->
+            <ul class="navbar">
+                <li><a href="#home">home</a></li>
+                <li><a href="#produtos">produtos</a></li>
+                <li><a href="#sobre">sobre</a></li>
+               
+            </ul>
+            <!--icones-->
+            <div class="header-icon">
+                <i class="bx bx-cart-alt" ></i>
+                <i class="bx bx-search" id="search-icons"></i>
 
-         </div>
-
+            </div>
     </header>
 </body>
 </html>
